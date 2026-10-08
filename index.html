@@ -1,16 +1,367 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Complaints Management System</title>
+
+    <title>Student Complaint Management System</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <h1>Student Complaints Management System</h1>
-    <p>Welcome to the Student Complaints Management System.</p>
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <div class="logo">
+            SCMS
+        </div>
+
+        <nav class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#process">How It Works</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="login.html" class="login-btn">
+            Login
+        </a>
+
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <span class="hero-label">
+                STUDENT SUPPORT PORTAL
+            </span>
+
+            <h1>
+                Your Voice.
+                <span>Your Solution.</span>
+            </h1>
+
+            <p>
+                A simple and transparent platform for students to
+                submit, track and manage their complaints with ease.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="complaint.html" class="primary-btn">
+                    Submit a Complaint
+                    <span>→</span>
+                </a>
+
+                <a href="#process" class="secondary-btn">
+                    Learn More
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- HERO CARD -->
+        <div class="hero-card">
+
+            <div class="card-header">
+                <div class="status-dot"></div>
+                <span>Complaint Portal</span>
+                <span class="online">● Online</span>
+            </div>
+
+            <div class="complaint-preview">
+
+                <div class="preview-icon">
+                    ✓
+                </div>
+
+                <div>
+                    <h3>Track your complaint</h3>
+                    <p>Stay updated on complaint status</p>
+                </div>
+
+            </div>
+
+            <div class="progress-section">
+
+                <div class="progress-label">
+                    <span>Complaint Status</span>
+                    <strong>75%</strong>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+
+                <small>Under Review</small>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FEATURES -->
+    <section class="features-section" id="about">
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                WHY USE SCMS?
+            </span>
+
+            <h2>
+                A better way to
+                <span>raise concerns.</span>
+            </h2>
+
+            <p>
+                The Student Complaint Management System makes it easier
+                for students and college authorities to communicate.
+            </p>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+
+                <div class="feature-number">01</div>
+
+                <div class="feature-icon">
+                    📝
+                </div>
+
+                <h3>Easy Complaint Submission</h3>
+
+                <p>
+                    Submit your complaint quickly by providing
+                    the required details through a simple form.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-number">02</div>
+
+                <div class="feature-icon">
+                    🔍
+                </div>
+
+                <h3>Track Complaint Status</h3>
+
+                <p>
+                    Check the current status of your complaint
+                    and stay informed about its progress.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-number">03</div>
+
+                <div class="feature-icon">
+                    🔒
+                </div>
+
+                <h3>Secure & Transparent</h3>
+
+                <p>
+                    Keep complaint information organized and
+                    accessible to authorized users.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-number">04</div>
+
+                <div class="feature-icon">
+                    ⚡
+                </div>
+
+                <h3>Faster Resolution</h3>
+
+                <p>
+                    Help college authorities manage complaints
+                    and resolve student concerns efficiently.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- HOW IT WORKS -->
+    <section class="process-section" id="process">
+
+        <div class="process-heading">
+
+            <span class="section-label">
+                SIMPLE PROCESS
+            </span>
+
+            <h2>
+                How it works
+            </h2>
+
+        </div>
+
+
+        <div class="steps">
+
+            <div class="step">
+
+                <div class="step-number">
+                    01
+                </div>
+
+                <div>
+                    <h3>Login</h3>
+
+                    <p>
+                        Login to the system using your student account.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="step-line"></div>
+
+
+            <div class="step">
+
+                <div class="step-number">
+                    02
+                </div>
+
+                <div>
+                    <h3>Submit Complaint</h3>
+
+                    <p>
+                        Enter the complaint details and submit the form.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="step-line"></div>
+
+
+            <div class="step">
+
+                <div class="step-number">
+                    03
+                </div>
+
+                <div>
+                    <h3>Track Progress</h3>
+
+                    <p>
+                        Monitor the complaint status until it is resolved.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CTA -->
+    <section class="cta-section">
+
+        <div>
+
+            <span class="section-label">
+                NEED HELP?
+            </span>
+
+            <h2>
+                Have a concern?
+                <span>Let us know.</span>
+            </h2>
+
+            <p>
+                Your feedback helps us improve the student experience.
+            </p>
+
+        </div>
+
+        <a href="complaint.html" class="primary-btn">
+            Submit Complaint
+            <span>→</span>
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer id="contact">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <div class="logo">
+                    SCMS
+                </div>
+
+                <p>
+                    Student Complaint Management System
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="#process">How It Works</a>
+                <a href="login.html">Login</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+            <span>© 2026 Student Complaint Management System</span>
+            <span>Student Support Portal</span>
+        </div>
+
+    </footer>
+
 
     <script src="script.js"></script>
+
 </body>
 </html>
+```
